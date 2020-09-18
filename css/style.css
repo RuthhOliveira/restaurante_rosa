@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;1,600;1,700&family=Herr+Von+Muellerhoff&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,900;1,200;1,300;1,900&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:root {
+  --main-font: 'Source Sans Pro', Sans-serif;
+  --secondary: 'Herr von Muellerhoff', cursive;
+  --body-font: 'cabin', Sans-serif;
+  --main-font-color-dark: #252525;
+  --secondary-font-color: #c59d5f;
+  --body-font-color: #515151;
+}
+/*# sourceMappingURL=style.css.map */
