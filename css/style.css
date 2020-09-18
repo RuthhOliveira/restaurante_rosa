@@ -488,4 +488,115 @@ footer .newsletter-container .newsletter-form .newsletter-btn {
           transform: translateY(-50%);
   margin-left: 200px;
 }
+
+footer .newsletter-container .newsletter-form .newsletter-btn:hover {
+  color: var(--secondary-font-color);
+}
+
+@media screen and (min-width: 900px) {
+  section {
+    padding: 7.9rem;
+  }
+  .nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .nav .menu-toggle {
+    display: none;
+  }
+  .nav .nav-list {
+    position: initial;
+    width: initial;
+    height: initial;
+    background-color: transparent;
+    padding: 0;
+    -webkit-box-pack: initial;
+        -ms-flex-pack: initial;
+            justify-content: initial;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-transform: initial;
+            transform: initial;
+    -webkit-transition: initial;
+    transition: initial;
+  }
+  .nav .nav-list .nav-item {
+    margin: 0 2.4rem;
+    border: none;
+  }
+  .nav .nav-list .nav-item:last-child {
+    margin-right: 0;
+  }
+  .nav .nav-list .nav-link {
+    font-size: 1.3rem;
+  }
+  .nav .nav-list .active {
+    position: relative;
+  }
+  .nav .nav-list .active::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    left: 0;
+    bottom: -3px;
+  }
+  .sub-headline {
+    font-size: 10rem;
+  }
+  .sub-headline .first-letter {
+    font-size: 12.2rem;
+  }
+  .sub-headline .headline {
+    font-size: 4.7rem;
+    letter-spacing: .8rem;
+  }
+  .sub-headline .line {
+    max-width: 11.4rem;
+  }
+  .restaurant-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .restaurant-info div {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .padding-right {
+    padding-right: 7rem;
+  }
+  .footer-content {
+    max-width: 77.5rem;
+    margin: auto;
+  }
+  .footer-content .footer-content-about {
+    max-width: 51.3rem;
+    margin: 0 auto 5.4rem;
+  }
+  .footer-content .footer-content-divider {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer-content .social-media, .footer-content .newsletter-form {
+    width: 1000%;
+    max-width: 27.3rem;
+    margin-top: 0 1rem;
+  }
+  .footer-content .newsletter-btn i {
+    margin-left: -40px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
